@@ -6,8 +6,9 @@ Write a program that will print the sum between numbers given as method argument
 */
 public class RangeSum {
     public void printSumInclusive(int firstBoarder, int secondBoarder) {
-
-        for (int i = firstBoarder, sum = 0; i <=secondBoarder; i++)
+        int sum = 0;
+        for (int i = firstBoarder; i <=secondBoarder; i++)
             sum +=i;
+        System.out.println(sum);
     }
 }
